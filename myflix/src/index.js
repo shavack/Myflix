@@ -4,8 +4,10 @@ import 'normalize.css'; // gets rid of the default border;
 import App from './app';
 import { GlobalStyles } from './global-styles';
 
-render(<>
-<GlobalStyles/>
-<App />
-</>,
- document.getElementById('root'));
+render(
+  <>
+    <GlobalStyles />
+    <App />
+  </>,
+  document.getElementById('root')
+);
