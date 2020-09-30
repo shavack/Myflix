@@ -15,9 +15,9 @@ export default function FaqContainer() {
 
       <OptForm>
         <OptForm.Input placeholder="Email address" />
-        <OptForm.Button>Try it now!</OptForm.Button>
+        <OptForm.Button>Get started</OptForm.Button>
         <OptForm.Break />
-        <OptForm.Text>Ready to watch? Enter your email to create or restert your membership.</OptForm.Text>
+        <OptForm.Text>Ready to watch? Enter your email to create or reset your membership.</OptForm.Text>
       </OptForm>
     </Accordion>
   );
