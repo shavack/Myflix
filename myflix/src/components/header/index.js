@@ -9,7 +9,7 @@ export default function Header({ background = true, children, ...restProps }) {
 Header.Logo = function HeaderLogo({ to, ...restProps }) {
   return (
     <ReactRouterLink to={to}>
-      <Logo {...restProps} />;
+      <Logo {...restProps} />
     </ReactRouterLink>
   );
 };
