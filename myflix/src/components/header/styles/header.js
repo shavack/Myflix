@@ -50,10 +50,10 @@ export const Group = styled.div`
 `;
 
 export const SearchInput = styled.input`
-  background-color: #44444459;
+  background-color: black;
   color: white;
   border: 1px solid white;
-  transition: width 0.5s;
+  transition: width 1s;
   height: 30px;
   font-size: 14px;
   margin-left: ${({ active }) => (active === true ? '10px' : '0')};
@@ -120,7 +120,7 @@ export const Dropdown = styled.div`
   position: absolute;
   background-color: black;
   padding: 10px;
-  width: 100px;
+  width: 150px;
   top: 32px;
   right: 10px;
 
@@ -217,7 +217,7 @@ export const PlayButton = styled.button`
   font-size: 20px;
   margin-top: 10px;
   cursor: pointer;
-  transition: background-color 0.5s ease;
+  transition: background-color 1.5s ease;
 
   &:hover {
     background-color: #ff1e1e;
