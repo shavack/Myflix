@@ -1,6 +1,6 @@
 /* eslint-disable no-nested-ternary */
 import React, { useContext, useEffect, useState } from 'react';
-import { SelectProfileContainer } from '..';
+import { SelectProfileContainer, FooterContainer } from '..';
 import { FirebaseContext } from '../../context/firebase';
 import { Loading, Header, Card } from '../../components';
 import * as ROUTES from '../../constants/routes';
@@ -96,6 +96,7 @@ export default function BrowseContainer({ slides }) {
           </Card>
         ))}
       </Card.Group>
+      <FooterContainer />
     </>
   ) : (
     <SelectProfileContainer user={user} setProfile={setProfile} />
